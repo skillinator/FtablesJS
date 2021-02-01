@@ -484,7 +484,7 @@ function get_cell_of_table(tableID, tableCell){
 	
 	theCell = theTableIdGet + "_" + theCell;
 	
-	console.log(document.getElementById(theCell).textContent);
+	return document.getElementById(theCell).textContent;
 	
 	
 }
